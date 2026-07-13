@@ -97,6 +97,7 @@ async function main() {
   const vectors = await embedDocuments(
     chunks.map((c) => c.text),
     apiKey,
+    { freeTier: process.env.VOYAGE_FREE_TIER === "1" },
   );
 
   const index: RagIndex = {
