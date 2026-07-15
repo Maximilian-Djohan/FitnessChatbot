@@ -11,5 +11,5 @@
     "noEmit": true,
     "types": ["node"]
   },
-  "include": ["core/**/*", "ingest/**/*", "types/**/*", "cli.ts"]
+  "include": ["core/**/*", "ingest/**/*", "types/**/*", "cli.ts", "server.ts"]
 }

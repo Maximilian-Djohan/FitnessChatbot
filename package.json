@@ -6,6 +6,7 @@
   "scripts": {
     "build-index": "tsx ingest/build-index.ts",
     "ask": "tsx cli.ts",
+    "web": "tsx server.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

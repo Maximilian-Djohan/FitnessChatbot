@@ -5,6 +5,9 @@
 
 export type SourceType = "study" | "influencer";
 
+/** How experienced the person asking is — controls answer vocabulary and depth. */
+export type ExperienceLevel = "beginner" | "intermediate" | "advanced";
+
 /** A slice of source text with enough metadata to attribute and rank it. */
 export interface Chunk {
   text: string;
