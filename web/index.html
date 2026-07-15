@@ -67,7 +67,9 @@
     max-width: 820px;
     width: 100%;
     margin: 0 auto;
+    scrollbar-width: none; /* Firefox */
   }
+  #chat::-webkit-scrollbar { display: none; } /* Chrome, Edge, Safari */
   .msg {
     padding: 12px 16px;
     border-radius: 12px;
